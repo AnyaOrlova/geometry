@@ -4,6 +4,6 @@
 
 int main()
 {
-    input();
+    input_circles();
     return 0;
 }
