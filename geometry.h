@@ -1,9 +1,9 @@
-#ifndef GEOMETRY
-#define GEOMETRY
+#ifndef GEOMETRY_H
+#define GEOMETRY_H
 
-int input();
-int calculator(int n, float radius, float all);
-int intersection(int n, float radius, float all);
-void free(float all, float radius);
+int calculating_circles(int n, float* circles_radius, float* all_circles);
+int intersection_circles(int n, float* all_circles, float* circles_radius);
+int input_circles();
+void mfree(float* all_circles, float* circles_radius);
 
 #endif
