@@ -19,4 +19,4 @@
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-    rm - rf $(OBJ_CATALOG)/*.o bin/*.exe
+	rm - rf $(OBJ_CATALOG)/*.o bin/*.exe
